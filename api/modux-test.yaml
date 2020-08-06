@@ -1,0 +1,106 @@
+---
+openapi: "3.0.1"
+info:
+  title: "modux-test"
+  description: "Un proyecto de ejemplo usando Modux"
+  version: "0.1"
+servers:
+- url: "{schema}://localhost:{port}"
+  description: "Ambiente local"
+  variables:
+    schema:
+      default: "http"
+      enum:
+      - "http"
+      - "https"
+    port:
+      default: "9000"
+      enum:
+      - "9000"
+      - "9001"
+paths:
+  /user:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/User"
+          application/xml:
+            schema:
+              $ref: "#/components/schemas/User"
+      responses:
+        "200":
+          description: "Returns a user"
+        "500":
+          description: "internal error"
+  /user/{id}:
+    get:
+      description: "Obtain's a user"
+      parameters:
+      - name: "id"
+        in: "path"
+        description: "User's  identifier"
+        required: true
+        schema:
+          type: "string"
+        examples:
+          sample1:
+            value: "pepe"
+      - name: "age"
+        in: "query"
+        schema:
+          type: "integer"
+          format: "int32"
+          nullable: true
+      responses:
+        "200":
+          description: "Returns a user"
+        "404":
+          description: "Not dound"
+        default:
+          $ref: "#/components/schemas/Pepe"
+components:
+  schemas:
+    User:
+      type: "object"
+      properties:
+        name:
+          type: "string"
+    Pepe:
+      type: "object"
+      properties:
+        name:
+          type: "string"
+        age:
+          type: "integer"
+          format: "int32"
+        t:
+          type: "string"
+        date:
+          type: "string"
+          example: "Fri Jul 31 18:24:36 UYT 2020"
+        sqldate:
+          type: "string"
+          example: "2020-07-31"
+        timestamp:
+          type: "string"
+          example: "2020-07-31 18:24:36.511"
+        instant:
+          type: "string"
+          example: "2020-07-31T21:24:36.511Z"
+        localdatetime:
+          type: "string"
+          example: "2020-07-31T18:24:36.511"
+        localdate:
+          type: "string"
+          example: "2020-07-31"
+        time:
+          type: "string"
+          example: "18:24:36"
+        localtime:
+          type: "string"
+          example: "18:24:36.511"
+        zoneddatetime:
+          type: "string"
+          example: "2020-07-31T18:24:36.511-03:00[America/Montevideo]"

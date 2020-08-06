@@ -1,0 +1,15 @@
+reload
+clean
+exit
+clean
+packageBin
+compile
+exit
+compile
+exit
+~run
+un
+reload
+project /
+compile
+exit

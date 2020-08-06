@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [project / Compile / run] Found inputs: D:\Proyectos\modux-example\project\*.{java,scala},D:\Proyectos\modux-example\project\src\main\java\**\*.{java,scala},D:\Proyectos\modux-example\project\src\main\resources\**\*,D:\Proyectos\modux-example\project\src\main\scala\**\*.{java,scala},D:\Proyectos\modux-example\project\src\main\scala-2.12\**\*.{java,scala},D:\Proyectos\modux-example\project\src\main\scala-sbt-1.0\**\*.{java,scala}[0m
+[0m[[0m[0minfo[0m] [0m[0m1. Monitoring source files for project/run...[0m
+[0m[[0m[0minfo[0m] [0m[0m   Press <enter> to interrupt or '?' for more options.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m
+[0m[[0m[0mdebug[0m] [0m[0m[watch] [debug] Received input event: Run().[0m

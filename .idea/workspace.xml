@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="117bf91c-1c44-4e74-bec6-286e9a862958" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../docs/_coverpage.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docs/_media/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/Module.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mserver/example/Module.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mserver/example/User.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/UserService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mserver/example/UserService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/UserServiceImpl.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../core/src/main/scala/modux/core/store/ServiceDescriptorStore.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPlugin.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPlugin.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPluginSettings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPluginSettings.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../model/src/main/scala/modux/model/exporter/MetaTree.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../model/src/main/scala/modux/model/header/RequestHeader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../model/src/main/scala/modux/model/header/RequestHeader.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="modux-test" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+  </component>
+  <component name="JupyterTrust" id="e6e8cbca-373d-4751-857d-cd4af2584164" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1fNy5a5dHfWOvOleOZ797ssFqVL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SwaggerCodegen: modux-test.yaml" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customJrePath" value="" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="true" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="D:\Proyectos\modux\modux\plugin\src\sbt-test\plugin\mserver-example\api\modux-test.yaml" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="SwaggerCodegen">
+      <option name="activeConfigurationType" value="FILE" />
+      <option name="configurationPath" value="" />
+      <option name="customJreEnabled" value="false" />
+      <option name="customJrePath" value="" />
+      <option name="customTemplatesPath" value="" />
+      <option name="enableDebugLogging" value="false" />
+      <option name="generateToPath" value="" />
+      <option name="generationParameters">
+        <list />
+      </option>
+      <option name="generatorPath" value="" />
+      <option name="language" value="" />
+      <option name="specificationPath" value="D:\Proyectos\modux\modux\plugin\src\sbt-test\plugin\mserver-example\api\modux-test.yaml" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="117bf91c-1c44-4e74-bec6-286e9a862958" name="Default Changelist" comment="" />
+      <created>1596072663626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596072663626</updated>
+      <workItem from="1596072665446" duration="367000" />
+      <workItem from="1596120033050" duration="3755000" />
+      <workItem from="1596128661842" duration="3217000" />
+      <workItem from="1596131956544" duration="474000" />
+      <workItem from="1596133887843" duration="1890000" />
+      <workItem from="1596135804646" duration="11126000" />
+      <workItem from="1596200724616" duration="12276000" />
+      <workItem from="1596222079353" duration="9720000" />
+      <workItem from="1596301528363" duration="3038000" />
+      <workItem from="1596482922388" duration="1626000" />
+      <workItem from="1596484959524" duration="2030000" />
+      <workItem from="1596489738258" duration="1792000" />
+      <workItem from="1596494264912" duration="3618000" />
+      <workItem from="1596500026172" duration="703000" />
+      <workItem from="1596544880752" duration="6967000" />
+      <workItem from="1596553737981" duration="449000" />
+      <workItem from="1596561868489" duration="32000" />
+      <workItem from="1596562172283" duration="157000" />
+      <workItem from="1596574578900" duration="4534000" />
+      <workItem from="1596638270306" duration="1808000" />
+      <workItem from="1596741077580" duration="2823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1169" y="511" key="#Chrome_Settings" timestamp="1596228997091">
+      <screen x="-1920" y="103" width="1920" height="1040" />
+    </state>
+    <state x="-1169" y="511" key="#Chrome_Settings/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596228997091" />
+    <state x="-1169" y="524" key="#Firefox_Settings" timestamp="1596228977825">
+      <screen x="-1920" y="103" width="1920" height="1040" />
+    </state>
+    <state x="-1169" y="524" key="#Firefox_Settings/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596228977825" />
+    <state x="-1230" y="377" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596138157366">
+      <screen x="-1920" y="103" width="1920" height="1040" />
+    </state>
+    <state x="-1230" y="377" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596138157366" />
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1596300917045">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596300917045" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596300882210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596300882210" />
+    <state x="-1213" y="477" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596210036175">
+      <screen x="-1920" y="103" width="1920" height="1040" />
+    </state>
+    <state x="-1213" y="477" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596210036175" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1596301454478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1459" y="267" key="SettingsEditor/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596229003674" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596301454478" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596675870210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596544886396" />
+    <state x="-1297" y="328" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596494318799" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.103.1920.1040@0.0.1920.1040" timestamp="1596461924517" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596675870210" />
+  </component>
+</project>
