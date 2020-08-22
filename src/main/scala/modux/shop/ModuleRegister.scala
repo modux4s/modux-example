@@ -1,14 +1,12 @@
-package mserver.example
+package modux.shop
 
 import modux.core.api.{ModuleX, Service}
 import modux.model.context.Context
 
-case class Module(context: Context) extends ModuleX {
-  override def onStart(): Unit = {
-    println("onStart")
-  }
-
+case class ModuleRegister(context: Context) extends ModuleX {
   override def providers: Seq[Service] = Seq(
+    CatalogService(context),
     UserService(context)
   )
 }
+
