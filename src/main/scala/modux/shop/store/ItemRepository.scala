@@ -1,7 +1,6 @@
 package modux.shop.store
 
-import modux.shop.SimpleItem
-import modux.shop.model.ShopItem
+import modux.shop.model.{ShopItem, SimpleItem}
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
