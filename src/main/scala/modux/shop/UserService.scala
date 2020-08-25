@@ -10,8 +10,16 @@ import modux.shop.store.UserRepository
 
 case class UserService(context: Context) extends Service {
 
-  def registerUser(): Call[User, Unit] = Call { user =>
+  def registerUser(): Call[User, Unit] = Call { (user: User) =>
     UserRepository.addUser(user)
+  }.mapResponse(resp => resp.withHeader("test", "test"))
+
+  def find(id: String): Call[Unit, User] = Call.handleRequest { request =>
+    if (request.hasHeader("sessionID")) {
+      User(id, (20 + math.random() * 50).toInt)
+    } else {
+      Unauthorized("You must be logged")
+    }
   }
 
   def removeUser(name: String): Call[Unit, Unit] = Call.empty {
@@ -25,6 +33,7 @@ case class UserService(context: Context) extends Service {
 
     namedAs("User service")
       .withCalls(
+        get("/user/:id", find _),
         post("/user", registerUser _),
         delete("/user/:name", removeUser _),
       )

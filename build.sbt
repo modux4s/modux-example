@@ -6,12 +6,10 @@ ThisBuild / organization := "com.example"
 ThisBuild / organizationName := "example"
 
 enablePlugins(ModuxPlugin)
-resolvers += Resolver.mavenLocal
+resolvers += Resolver.bintrayRepo("jsoft", "maven")
 
 lazy val root = (project in file("."))
   .settings(
     name := "shop",
     moduxOpenAPIVersion := 3,
-    libraryDependencies += scalaTest % Test,
-    libraryDependencies += "com.lihaoyi" %% "scalatags" % "0.9.1"
   )

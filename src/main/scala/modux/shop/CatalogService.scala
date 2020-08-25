@@ -2,6 +2,7 @@ package modux.shop
 
 import akka.NotUsed
 import akka.stream.scaladsl.{Sink, Source}
+import com.typesafe.scalalogging.LazyLogging
 import modux.core.api.Service
 import modux.macros.serializer.SerializationSupport
 import modux.macros.serializer.codec.Codec
@@ -13,7 +14,7 @@ import modux.shop.store.ItemRepository
 
 import scala.concurrent.Future
 
-final case class CatalogService(context: Context) extends Service with SerializationSupport {
+final case class CatalogService(context: Context) extends Service with SerializationSupport with LazyLogging {
 
   implicit val shopItemCodec: Codec[ShopItem] = codecFor[ShopItem]
   implicit val metricsCodec: Codec[Metrics] = codecFor[Metrics]
@@ -34,7 +35,8 @@ final case class CatalogService(context: Context) extends Service with Serializa
     }
   }
 
-  def addItem(): Call[SimpleItem, Unit] = Call { item =>
+  def addItem(): Call[SimpleItem, Unit] = Call.withRequest { (item, request) =>
+    logger.info(request.hasHeader("host").toString)
     Future(ItemRepository.addItem(item))
   }
 
