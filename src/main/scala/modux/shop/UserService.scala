@@ -32,7 +32,7 @@ case class UserService(context: Context) extends Service {
     implicit val userCodec: Codec[User] = codecFor[User]
 
     namedAs("User service")
-      .withCalls(
+      .entry(
         get("/user/:id", find _),
         post("/user", registerUser _),
         delete("/user/:name", removeUser _),

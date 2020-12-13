@@ -4,7 +4,7 @@
 *.iml
 *.ipr
 *.iws
-.idea
+.idea/
 out
 .cache/
 .history/
@@ -12,7 +12,6 @@ out
 dist/*
 target/
 bin/
-.idea
 libexec/
 lib_managed/
 src_managed/
@@ -24,3 +23,7 @@ project/project/
 project/target/
 .scala_dependencies
 .worksheet
+/.idea/
+/project/project/
+/project/target/
+/target/

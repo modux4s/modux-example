@@ -7,7 +7,7 @@ import modux.model.context.Context
 case class WebService(context:Context) extends Service {
   override def serviceDef: ServiceDef =
     namedAs("web service")
-      .withCalls(
+      .entry(
         statics("app", "public")
       )
 }

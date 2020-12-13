@@ -24,7 +24,7 @@ case class ChatService(context: Context) extends Service with SerializationSuppo
 
   override def serviceDef: ServiceDef = {
     namedAs("Shop chat")
-      .withCalls(
+      .entry(
         named("chat", chat _)
       )
   }

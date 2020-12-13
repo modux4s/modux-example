@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,19 +23,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="117bf91c-1c44-4e74-bec6-286e9a862958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../docs/_coverpage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../docs/_media/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_annotations_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_core_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_core_jackson_databind_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_paranamer_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_fasterxml_jackson_module_jackson_module_scala_2_12_2_11_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_sharding_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_sharding_typed_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_tools_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_cluster_typed_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_coordination_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_distributed_data_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_2_12_10_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_http_core_2_12_10_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_parsing_2_12_10_2_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_persistence_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_pki_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_protobuf_v3_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_remote_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_stream_typed_2_12_2_6_8_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_ssl_config_core_2_12_0_4_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_core_v3_swagger_annotations_2_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_core_v3_swagger_core_2_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_core_v3_swagger_integration_2_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_core_v3_swagger_jaxrs2_2_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__io_swagger_core_v3_swagger_models_2_1_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__javax_ws_rs_javax_ws_rs_api_2_0_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jsoft_modux_modux_common_2_12_0_1_0_SNAPSHOT_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jsoft_modux_modux_core_2_12_0_1_0_SNAPSHOT_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jsoft_modux_modux_macros_2_12_0_1_0_SNAPSHOT_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jsoft_modux_modux_model_2_12_0_1_0_SNAPSHOT_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__jsoft_modux_modux_shared_2_12_0_1_0_SNAPSHOT_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_agrona_agrona_1_4_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_12_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_12_12_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/modux-test-build.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/modux-test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/plugins.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/project/plugins.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/Module.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mserver/example/Module.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/User.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mserver/example/User.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/UserService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/mserver/example/UserService.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/mserver/example/UserServiceImpl.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../core/src/main/scala/modux/core/store/ServiceDescriptorStore.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPlugin.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPlugin.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPluginSettings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../main/scala/modux/plugin/ModuxPluginSettings.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../model/src/main/scala/modux/model/exporter/MetaTree.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../model/src/main/scala/modux/model/header/RequestHeader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../../model/src/main/scala/modux/model/header/RequestHeader.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/modux/shop/CatalogService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/modux/shop/CatalogService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/modux/shop/ChatService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/modux/shop/ChatService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/modux/shop/UserService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/modux/shop/UserService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/modux/shop/WebService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/modux/shop/WebService.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +88,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -55,7 +105,7 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="modux-test" type="f1a62948:ProjectNode" />
+                <item name="shop" type="f1a62948:ProjectNode" />
               </path>
             </expand>
             <select />
@@ -72,7 +122,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="e6e8cbca-373d-4751-857d-cd4af2584164" />
   <component name="ProjectCodeStyleSettingsMigration">
@@ -96,12 +146,35 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="sbt Task.run">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="run" type="SbtRunConfiguration" factoryName="sbt Task" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="tasks" value="run" />
+      <option name="useSbtShell" value="false" />
+      <option name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwaggerCodegen: modux-test.yaml" type="SwaggerCodegen">
       <option name="activeConfigurationType" value="FILE" />
       <option name="configurationPath" value="" />
       <option name="customJreEnabled" value="false" />
-      <option name="customJrePath" value="" />
       <option name="customTemplatesPath" value="" />
       <option name="enableDebugLogging" value="true" />
       <option name="generateToPath" value="" />
@@ -109,6 +182,7 @@
         <list />
       </option>
       <option name="generatorPath" value="" />
+      <option name="jdkPath" value="Default" />
       <option name="language" value="" />
       <option name="specificationPath" value="D:\Proyectos\modux\modux\plugin\src\sbt-test\plugin\mserver-example\api\modux-test.yaml" />
       <method v="2" />
@@ -117,7 +191,6 @@
       <option name="activeConfigurationType" value="FILE" />
       <option name="configurationPath" value="" />
       <option name="customJreEnabled" value="false" />
-      <option name="customJrePath" value="" />
       <option name="customTemplatesPath" value="" />
       <option name="enableDebugLogging" value="false" />
       <option name="generateToPath" value="" />
@@ -125,12 +198,17 @@
         <list />
       </option>
       <option name="generatorPath" value="" />
+      <option name="jdkPath" value="" />
       <option name="language" value="" />
       <option name="specificationPath" value="D:\Proyectos\modux\modux\plugin\src\sbt-test\plugin\mserver-example\api\modux-test.yaml" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="sbt Task.run" />
+      <item itemvalue="Swagger Codegen.SwaggerCodegen: modux-test.yaml" />
+    </list>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -162,11 +240,12 @@
       <workItem from="1596574578900" duration="4534000" />
       <workItem from="1596638270306" duration="1808000" />
       <workItem from="1596741077580" duration="2823000" />
+      <workItem from="1607869118385" duration="1501000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -179,43 +258,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1169" y="511" key="#Chrome_Settings" timestamp="1596228997091">
-      <screen x="-1920" y="103" width="1920" height="1040" />
-    </state>
-    <state x="-1169" y="511" key="#Chrome_Settings/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596228997091" />
-    <state x="-1169" y="524" key="#Firefox_Settings" timestamp="1596228977825">
-      <screen x="-1920" y="103" width="1920" height="1040" />
-    </state>
-    <state x="-1169" y="524" key="#Firefox_Settings/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596228977825" />
-    <state x="-1230" y="377" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1596138157366">
-      <screen x="-1920" y="103" width="1920" height="1040" />
-    </state>
-    <state x="-1230" y="377" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596138157366" />
-    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1596300917045">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1596300917045" />
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596300882210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596300882210" />
-    <state x="-1213" y="477" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596210036175">
-      <screen x="-1920" y="103" width="1920" height="1040" />
-    </state>
-    <state x="-1213" y="477" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596210036175" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1596301454478">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1459" y="267" key="SettingsEditor/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596229003674" />
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596301454478" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1596675870210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1596544886396" />
-    <state x="-1297" y="328" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.103.1920.1040@-1920.103.1920.1040" timestamp="1596494318799" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.103.1920.1040@0.0.1920.1040" timestamp="1596461924517" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1596675870210" />
   </component>
 </project>

@@ -46,16 +46,17 @@ final case class CatalogService(context: Context) extends Service with Serializa
 
   override def serviceDef: ServiceDef = {
     namedAs("Catalog services")
-      .withNamespace("catalog")
-      .withCalls(
-        get("/item", getItems _) summary "Get a list of items" returns (200 -> "OK" represented by[ShopItem]),
-        get("/item/:id", getItem _) summary "obtains a user" returns(200 -> "if user with id exists" represented by[Item], 404 -> "if not founded"),
-        post("/item/total", sumTotal _),
-        post("/item", addItem _)
-          summary "creates a user"
-          expects instanceOf[SimpleItem]
-          returns (200 -> "Store a new item"),
-        delete("/item/:id", removeItem _)
+      .entry(
+        namespace("catalog"   )(
+          get("/item", getItems _) summary "Get a list of items" returns (200 -> "OK" represented by[ShopItem]),
+          get("/item/:id", getItem _) summary "obtains a user" returns(200 -> "if user with id exists" represented by[Item], 404 -> "if not founded"),
+          post("/item/total", sumTotal _),
+          post("/item", addItem _)
+            summary "creates a user"
+            expects instanceOf[SimpleItem]
+            returns (200 -> "Store a new item"),
+          delete("/item/:id", removeItem _)
+        )
       )
   }
 }
