@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="modux-test,mserver-example_2355,shop" />
+    <profile name="sbt 1" modules="modux-example.shop,modux-test,mserver-example_2355,shop" />
   </component>
 </project>

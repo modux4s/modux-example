@@ -1,6 +1,6 @@
-package modux.shop.store
+package store
 
-import modux.shop.model.{ShopItem, SimpleItem}
+import model.{ShopItem, SimpleItem}
 
 import scala.collection.mutable
 import scala.collection.mutable.ArrayBuffer
@@ -23,6 +23,6 @@ object ItemRepository {
   def removeItem(id: Int): Unit = {
     val datum: ArrayBuffer[ShopItem] = items.filterNot(_.id == id)
     items.clear()
-    items.append(datum: _*)
+    items ++= datum
   }
 }

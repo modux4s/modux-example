@@ -1,4 +1,4 @@
-package modux.shop.model
+package model
 
 sealed trait Item{
   def id: Int

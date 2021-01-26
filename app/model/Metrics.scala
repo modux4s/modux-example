@@ -1,3 +1,3 @@
-package modux.shop.model
+package model
 
 case class Metrics(total: Int)

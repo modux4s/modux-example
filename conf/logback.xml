@@ -4,8 +4,9 @@
             <pattern>[%date{ISO8601}] [%level] [%logger] - %msg%n</pattern>
         </encoder>
     </appender>
-    <logger name="akka" level="error"/>
-    <root level="DEBUG">
+    <logger name="akka" level="ERROR"/>
+
+    <root level="ALL">
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>

@@ -1,2 +1,3 @@
 resolvers += Resolver.bintrayRepo("jsoft", "maven")
-addSbtPlugin("jsoft.modux" %% "modux-plugin" % "1.1.0")
+resolvers += Resolver.mavenLocal
+addSbtPlugin("jsoft.modux" %% "modux-plugin" % "1.2.2-SNAPSHOT")
